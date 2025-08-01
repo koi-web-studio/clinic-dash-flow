@@ -7,6 +7,7 @@ import Layout from "./components/Layout";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Patients from "./pages/Patients";
+import MyPatients from "./pages/MyPatients";
 import PatientDetail from "./pages/PatientDetail";
 import Appointments from "./pages/Appointments";
 import Users from "./pages/Users";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
             <Route path="patients" element={<Patients />} />
+            <Route path="my-patients" element={<MyPatients />} />
             <Route path="patients/:id" element={<PatientDetail />} />
             <Route path="appointments" element={<Appointments />} />
             <Route path="settings/users" element={<Users />} />

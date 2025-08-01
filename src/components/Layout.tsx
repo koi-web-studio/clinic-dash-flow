@@ -26,6 +26,9 @@ export default function Layout() {
 
   const navItems = [
     { path: "/", icon: Home, label: "Dashboard" },
+    ...(mockUser.role === "DOCTOR" ? [
+      { path: "/my-patients", icon: Users, label: "Mis Pacientes" }
+    ] : []),
     { path: "/patients", icon: Users, label: "Pacientes" },
     { path: "/appointments", icon: Calendar, label: "Agenda" },
     ...(mockUser.role === "OWNER" ? [
