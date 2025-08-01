@@ -61,7 +61,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Estados específicos del CRM médico
+				confirmed: 'hsl(var(--confirmed))',
+				'confirmed-foreground': 'hsl(var(--confirmed-foreground))',
+				pending: 'hsl(var(--pending))',
+				'pending-foreground': 'hsl(var(--pending-foreground))',
+				'no-show': 'hsl(var(--no-show))',
+				'no-show-foreground': 'hsl(var(--no-show-foreground))',
+				divider: 'hsl(var(--divider))',
+				'surface-alt': 'hsl(var(--surface-alt))'
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

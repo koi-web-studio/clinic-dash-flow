@@ -1,4 +1,23 @@
-# Welcome to your Lovable project
+# CRM Turnos Médicos - Maqueta UI
+
+Maqueta funcional de un sistema de gestión de turnos médicos con diseño monocromático y componentes atómicos.
+
+## Características
+
+- **Diseño monocromático**: Paleta blanco/negro/grises para estética clínica
+- **Responsive**: Mobile-first con breakpoints adaptativos  
+- **Roles diferenciados**: Doctor, Secretaria, Owner con permisos específicos
+- **Navegación completa**: Navbar fijo + sidebar colapsable
+- **Componentes atómicos**: Cards, tablas, calendarios, modales reutilizables
+
+## Pantallas Implementadas
+
+- `/login` - Formulario de acceso
+- `/` - Dashboard con métricas y agenda del día
+- `/patients` - Lista de pacientes con búsqueda
+- `/patients/:id` - Ficha detallada de paciente
+- `/appointments` - Calendario semanal de turnos
+- `/settings/users` - Gestión de usuarios (solo Owner)
 
 ## Project info
 
